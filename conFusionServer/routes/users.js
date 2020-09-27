@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 var passport = require('passport')
 
 var User = require('../models/user')
-var authenticate = require('../authenticate.js')
+var authenticate = require('../authenticate')
 
 router.use(bodyParser.json())
 

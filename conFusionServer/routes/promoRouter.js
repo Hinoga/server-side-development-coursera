@@ -1,6 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
-const authenticate = require('../authenticate.js')
+const authenticate = require('../authenticate')
 
 const Promotions = require('../models/promotions')
 
